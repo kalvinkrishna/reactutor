@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 
 function Person(props){
-  return <h1 className='nickname'>Hello, {props.name}</h1>
+  return <h1 className='nickname text-center'>Hello, {props.name}</h1>
 }
 
 function Welcome(props) {
   return (
       <div>
-        <Person name={props.name}/>
-        <Person name={props.namedua}/>
+        <div className='col-md-4'>
+            <Person name={props.name}/>
+        </div>
+        <div className='col-md-4'>
+            <Person name={props.namedua}/>
+        </div>
       </div>
   );
 }
