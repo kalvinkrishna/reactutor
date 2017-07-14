@@ -6,6 +6,7 @@ import "./baliradianceplugin/css/style.css"
 import "./baliradianceplugin/css/styles.css"
 import "./baliradianceplugin/css/custom-style.css"
 import "./App.css"
+//import "/css/bootstrap.css";
 render(
 	<Header/>
 	,

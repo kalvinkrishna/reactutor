@@ -20,7 +20,7 @@ module.exports = {
   },
 
   output: {
-    path: path.join(__dirname, "dist"),
+    path: path.join(__dirname, "src"),
     filename: "js/[name].bundle-[hash].js",
     publicPath:"/"
   },
@@ -89,7 +89,7 @@ module.exports = {
     new ExtractTextPlugin(
       {
         filename:"css/[name].css",
-        disable: !isProd,
+        disable: false,
         allChunks: true
       }
     ),
