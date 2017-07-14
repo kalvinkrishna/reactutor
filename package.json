@@ -18,7 +18,7 @@
   },
   "author": "I.K Calvin Krishna Putra",
   "license": "ISC",
-  "homepage": "https://kalvinkrishna.github.io/site",
+  "homepage": "http://kalvinkrishna.github.io/reactutor",
   "dependencies": {
     "bootstrap-loader": "^2.1.0",
     "gh-pages": "^1.0.0",
